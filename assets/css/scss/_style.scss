@@ -1,0 +1,16 @@
+// GLOBAL VARIABLE
+
+
+$colors:(
+    themeColor: #364555,
+    themeColorRgb: rgba(54,69,85,0.8)
+);
+
+@function color($color-name){
+    @return map-get($colors,$color-name);
+}
+
+@import '_util.scss';
+@import '_header.scss';
+
+

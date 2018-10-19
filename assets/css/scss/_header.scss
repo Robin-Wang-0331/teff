@@ -1,0 +1,30 @@
+
+/*========== Header ==========*/
+header {
+	position: fixed;
+	width: 100%;
+	/*background: #364555;*/
+	background: color(themeColorRgb);
+
+}
+header #nav-logo {
+	margin: 10px 15px;
+}
+header a{
+	color: white;
+	font-size: 16px;
+	transition: 0.2s;
+}
+header a:hover{
+	color: #7b9abc;
+	transition: 0.2s;
+}
+
+header .nav li.nav-item{
+	align-self: center;
+}
+header .nav li.nav-item a{
+	padding: 10px 20px;
+}
+
+
